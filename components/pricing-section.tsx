@@ -19,11 +19,13 @@ interface PricingSectionProps {
 
 export function PricingSection({ className }: PricingSectionProps) {
   const router = useRouter();
-  const { user } = useUser();
+  const { user, loading: userLoading } = useUser();
   const { toast } = useToast();
   const [isProcessing, setIsProcessing] = useState<string | null>(null);
 
   const handlePurchase = async (tier: ProductTier) => {
+    if (userLoading) return;
+
     if (!user) {
       toast({
         title: "Sign In Required",
