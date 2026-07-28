@@ -4,7 +4,7 @@ export const SUBSCRIPTION_TIERS: ProductTier[] = [
   {
     name: "Starter",
     id: "tier-hobby",
-    productId: "prod_6E43JxQebqP1JmRXdM5OmQ", // $11 monthly subscription
+    productId: "prod_18T5EqWivKNr5y6ovrp2F", // $11 monthly subscription
     priceMonthly: "$11",
     description: "Perfect for individual developers and small projects.",
     features: [
@@ -21,7 +21,7 @@ export const SUBSCRIPTION_TIERS: ProductTier[] = [
   {
     name: "Business",
     id: "tier-pro",
-    productId: "prod_6E43JxQebqP1JmRXdM5OmQ", // $29 monthly subscription
+    productId: "prod_5FpdlxGPzzwZhrgEeiajtl", // $29 monthly subscription
     priceMonthly: "$29",
     description: "Ideal for growing businesses and development teams.",
     features: [
@@ -38,7 +38,7 @@ export const SUBSCRIPTION_TIERS: ProductTier[] = [
   {
     name: "Enterprise",
     id: "tier-enterprise",
-    productId: "prod_6E43JxQebqP1JmRXdM5OmQ", // $99 monthly subscription
+    productId: "prod_7BlWXSu8KIFfX5wSyPD2VM", // $99 monthly subscription
     priceMonthly: "$99",
     description: "For large organizations with advanced requirements.",
     features: [
@@ -58,7 +58,7 @@ export const CREDITS_TIERS: ProductTier[] = [
   {
     name: "Basic Package",
     id: "tier-3-credits",
-    productId: "prod_4KAhtZO8oxZw0hxOzWqjpt", // $9 one-time purchase
+    productId: "prod_6Afwz3Eh1pAtGMcqewJLE9", // $9 one-time purchase
     priceMonthly: "$9",
     description: "3 credits for testing and small-scale projects.",
     creditAmount: 3,
@@ -74,7 +74,7 @@ export const CREDITS_TIERS: ProductTier[] = [
   {
     name: "Standard Package",
     id: "tier-6-credits",
-    productId: "prod_4KAhtZO8oxZw0hxOzWqjpt", // $13 one-time purchase
+    productId: "prod_K1kyriTBdR3JN6J90dBqV", // $13 one-time purchase
     priceMonthly: "$13",
     description: "6 credits for medium-sized applications.",
     creditAmount: 6,
@@ -90,7 +90,7 @@ export const CREDITS_TIERS: ProductTier[] = [
   {
     name: "Premium Package",
     id: "tier-9-credits",
-    productId: "prod_4KAhtZO8oxZw0hxOzWqjpt", // $29 one-time purchase
+    productId: "prod_6YfMTx5eTJwo1yTF1FegdY", // $29 one-time purchase
     priceMonthly: "$29",
     description: "9 credits for larger applications and production use.",
     creditAmount: 9,
